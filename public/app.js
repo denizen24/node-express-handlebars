@@ -29,7 +29,7 @@ if ($card) {
                                 <td>
                                     <button class="btn btm-small js-remove" data-id="${c.id}">Удалить</button>
                                 </td>
-            </tr>
+                            </tr>
                             `
                         }).join('')
                         $card.querySelector('tbody').innerHTML = html
