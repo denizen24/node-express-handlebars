@@ -18,7 +18,7 @@ class Card {
             candidate.count++
             card.courses[idx] = candidate
         } else {
-            // нужно доюавить
+            // нужно добавить
             course.count = 1
             card.courses.push(course)
         }
